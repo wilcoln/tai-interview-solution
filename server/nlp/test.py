@@ -5,10 +5,13 @@ from nlp import nlp
 
 class TestNbCharacters(unittest.TestCase):
 
-    def test_with_valid_data(self):
+    def test_simple(self):
         text = 'wilfried'
         self.assertEqual(nlp.nbCharacters(text), 8)
 
+    def test_avec_ponctuation(self):
+        text = "Vas-tu à l'hopital?"
+        self.assertEqual(nlp.nbCharacters(text), 19)
 
 class TestNbWords(unittest.TestCase):
 
@@ -73,4 +76,4 @@ class TestExtractKeyWords(unittest.TestCase):
             {'keyword': 'pays', 'relevance': 0.1846637908731856}
         ]
 
-        self.assertEqual(nlp.extract_keywords(text, nb_keywords=4), expected_output)
+        self.assertEqual(nlp.extractKeywords(text, nb_keywords=4), expected_output)

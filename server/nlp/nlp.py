@@ -80,7 +80,7 @@ def occurrence(word, text) -> int:
     return words.count(word)
 
 
-def extract_keywords(text, nb_keywords) -> list:
+def extractKeywords(text, nb_keywords) -> list:
     language = "fr"
     max_ngram_size = 1  # nous voulons un mot par expression clé, pas plus.
 
