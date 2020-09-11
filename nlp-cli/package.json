@@ -1,0 +1,21 @@
+{
+  "name": "nlp-cli",
+  "version": "1.0.0",
+  "description": "npm install -g .",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wilfried L. Bounsi",
+  "license": "ISC",
+  "bin": {
+    "nbc": "bin/nbc.js",
+    "nbw": "bin/nbw.js",
+    "occ": "bin/occ.js",
+    "kw": "bin/kw.js"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "yargs": "^16.0.3"
+  }
+}

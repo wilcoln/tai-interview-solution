@@ -1,0 +1,21 @@
+aniso8601==8.0.0
+click==7.1.2
+decorator==4.4.2
+Flask==1.1.2
+Flask-RESTful==0.3.8
+itsdangerous==1.1.0
+jellyfish==0.8.2
+Jinja2==2.11.2
+joblib==0.16.0
+MarkupSafe==1.1.1
+networkx==2.5
+nltk==3.5
+numpy==1.19.2
+pytz==2020.1
+regex==2020.7.14
+segtok==1.5.10
+six==1.15.0
+tabulate==0.8.7
+tqdm==4.48.2
+Werkzeug==1.0.1
+yake @ git+https://github.com/LIAAD/yake@2c9fedbe0e3195a273a3c3daef3d41d4d7c5b3b3
