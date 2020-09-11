@@ -2,3 +2,7 @@ nlp-cli/package-lock.json
 nlp-cli/node_modules/
 server/venv/
 server/nlp/__pycache__/
+*/.idea
+*/.vscode
+.idea
+.vscode

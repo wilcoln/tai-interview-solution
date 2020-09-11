@@ -81,7 +81,7 @@ class ExtractKeyWords(FunctionResource):
 
         return {
             'input': {'text': text, 'nb_keywords': nb_keywords},
-            'output': nlp.extract_keywords(text, nb_keywords=nb_keywords),
+            'output': nlp.extractKeywords(text, nb_keywords=nb_keywords),
         }
 
 
